@@ -1,0 +1,278 @@
+.map-container iframe {
+  width: 100%;
+  height: 600px;
+}
+
+.content {
+  flex: 1;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.horarioydireccion {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.listado {
+  list-style: none;
+}
+
+.menu-opciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-opciones .item {
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.menu-opciones .item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Times New Roman", Times;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+.p2 {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.texto {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  display: flex;
+  margin-right: auto;
+  height: 80px;
+  width: auto;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+main .principal {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+main .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+main .comida {
+  width: calc(50% - 10px);
+  margin-bottom: 10px;
+}
+main .comida img {
+  width: 100%;
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.puerta {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.entrada {
+  width: 100%;
+  height: auto;
+  display: block;
+  align-items: center;
+  border-radius: 2px;
+  object-fit: contain;
+}
+
+.descripcion {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.nosotros {
+  padding: 40px 0;
+}
+
+.especiales {
+  text-align: center;
+  padding: 20px;
+}
+
+.fichas {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.dias {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imagenmenu {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.imagenmenu img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.info {
+  width: 60%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.team-section {
+  background-color: #fff;
+  padding: 20px;
+}
+.team-section .team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.team-section .team-members .team-member {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.team-section .team-members .team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.team-section .social-links {
+  display: flex;
+  justify-content: center;
+}
+.team-section .social-links a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+/*# sourceMappingURL=style.css.map */
