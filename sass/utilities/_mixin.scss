@@ -1,0 +1,29 @@
+@mixin clearfix {
+    &::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+}
+
+@mixin center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin box-shadow($x: 0, $y: 2px, $blur: 4px, $color: rgba(0, 0, 0, 0.1)) {
+    box-shadow: $x $y $blur $color;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+@mixin padding($padding) {
+    padding: $padding;
+}
+
+@mixin margin($margin) {
+    margin: $margin;
+}
